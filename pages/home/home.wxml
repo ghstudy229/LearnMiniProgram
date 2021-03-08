@@ -3,8 +3,9 @@
 <view>Hello {{name}}</view>
 <view>我的年龄: {{age}}</view>
 
+
 <!-- 2.列表展示: wx:for -->
-<view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
+<view wx:for="{{students}}">{{item.id}}-{{item.name}}-{{item.age}}</view>
 
 <!-- 3.事件监听改变data -->
 <view>当前计数: {{counter}}</view>
